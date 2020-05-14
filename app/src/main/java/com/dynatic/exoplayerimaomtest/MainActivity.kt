@@ -88,11 +88,11 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     override fun onLoadingChanged(isLoading: Boolean) {
-                        Log.d("YYH", "onLoadingChanged(error[$isLoading])")
+                        Log.d("YYH", "onLoadingChanged(isLoading[$isLoading])")
                     }
 
                     override fun onIsPlayingChanged(isPlaying: Boolean) {
-                        Log.d("YYH", "onIsPlayingChanged(error[$isPlaying])")
+                        Log.d("YYH", "onIsPlayingChanged(isPlaying[$isPlaying])")
                     }
 
                     override fun onTracksChanged(
